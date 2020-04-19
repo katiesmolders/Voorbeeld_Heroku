@@ -200,3 +200,17 @@ p{
 .Message textarea{
   width: 85vw;
 }
+
+.link{
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'News Cycle', sans-serif;
+    text-transform: lowercase;
+}
+
+.link:hover{
+  background-color: black;
+  color: #ffee00;
+  text-decoration: underline;
+
+}
