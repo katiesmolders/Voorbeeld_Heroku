@@ -63,6 +63,7 @@ footer{
   margin: none;
   padding: 0.5rem;
   width: 100vw;
+  text-align: center;
 }
 
 .alleWerken{
@@ -139,6 +140,10 @@ img{
 .kader{
   background-color: #ffee00;
   padding: 1rem;
+  width: 80vw;
+}
+.kader p{
+    width: 79vw;
 }
 
 p{
@@ -148,4 +153,50 @@ p{
   margin: 0.5rem;
   margin-bottom: 1rem;
   width: 95vw;
+}
+
+.intro{
+  text-align: center;
+  position: relative;
+  padding: 3rem;
+  animation: introSlide;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  font-size: 6rem;
+}
+
+@keyframes introSlide {
+  0% {
+        transform: translate(-80vw,0);
+  }
+  100% {
+        transform: translate(80vw,0);
+
+  }
+}
+
+.Message{
+  font-family: 'News Cycle', sans-serif;
+  font-size: 1rem;
+}
+
+.Message button{
+  text-decoration: none;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: black;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.Message button:hover{
+    background-color: #ffee00;
+    color: black;
+}
+
+.Message textarea{
+  width: 85vw;
 }

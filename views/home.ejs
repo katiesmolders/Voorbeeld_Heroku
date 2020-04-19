@@ -4,8 +4,18 @@
 
       <h2>Van Gogh Museum</h2>
       <h2 class="titel2">Van Gogh Museum</h2>
-      <h3>Welkom</h3>
+      <h3 class="intro">Welkom</h3>
+      <img src="/img/zelfportret.jpg" alt="" class="gogh">
+      <p>Vincent van Gogh (1853-1890) is een van de beroemdste Nederlandse kunstenaars. Lees over zijn leven, ontdek de boeiende themaverhalen, bekijk zijn landschappen en zelfportretten en ontdek meer schilderijen en tekeningen in de galerij.</p>
       <h3>Werk in de kijker</h3>
+
+      <div class="works">
+        <% for (let i=14; i<werken.length; i++) { %>
+          <%- include('werk', {werk: werken[9], index: 9}); -%>
+        <% } // close forloop %>
+      </div>
+
+
   </main>
 
 <%- include('footer'); -%>

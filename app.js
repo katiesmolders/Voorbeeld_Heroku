@@ -20,7 +20,9 @@ app.use(express.static('public'));
 
 // webserver luister naar GET-commando van verschillende pagina's
 app.get("/", function(request, response){
-  response.render("home");
+  response.render("home", {
+    werken: portfolio.werken
+  });
 });
 
 app.get("/galerij", function(request, response){
