@@ -1,0 +1,11 @@
+<%- include('header'); -%>
+
+<div class="alleWerken">
+    <h3 class="title"><%=werk.title %></h3>
+    <img src="<%=werk.imageURL %>" alt="<%= werk.title %>">
+    <p><%=werk.artist %> <%=werk.year %></p>
+    <p><%=werk.paint %></p>
+    <p><%=werk.description %></p>
+</div>
+<%- include('footer'); -%>
+<link rel="stylesheet" href="/css/master.css">

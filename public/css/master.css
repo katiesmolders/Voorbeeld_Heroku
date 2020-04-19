@@ -1,0 +1,151 @@
+body{
+  /*background-color: #302d3d;*/
+  overflow-x: hidden;
+  margin: 0;
+}
+header{
+  margin-left: 0;
+
+}
+ul{
+  display: flex;
+
+}
+
+li{
+  padding: 1rem;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+
+  font-size: 2rem;
+}
+a:hover{
+  background-color: #ffee00;
+  color: black;
+}
+
+header{
+}
+
+h2{
+  margin: 0.3rem;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+  font-size: 9rem;
+  line-height: 8rem;
+  padding-bottom: 4rem;
+  padding-top: 1rem;
+}
+
+.titel2{
+  position: absolute;
+  top: 6rem;
+  left: 0.5rem;
+  color: #ffee00;
+}
+h3{
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin: 0.3rem;
+}
+footer{
+  background-color: black;
+  color: white;
+  margin: none;
+  padding: 0.5rem;
+  width: 100vw;
+}
+
+.alleWerken{
+  width: 100vw;
+}
+
+.isotope{
+  text-transform: uppercase;
+}
+
+.contact{
+  padding: 1rem;
+  margin: 1rem;
+
+
+}
+
+.contacttitel{
+  font-size: 8rem;
+  text-align: center;
+}
+
+.contacttitel2{
+  position: absolute;
+  left: 2.5rem;
+  font-size: 8rem;
+  top:7.5rem;
+  color: #ffee00;
+}
+
+.meerWeten{
+
+  font-size: 1.5rem;
+  border-radius: 0;
+
+}
+
+
+.button{
+  text-decoration: none;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: black;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+
+}
+
+.button:hover{
+  background-color: #ffee00;
+  color: black;
+}
+
+.button:focus{background-color:#ffee00;color: black;}
+
+img{
+  width: 100vw;
+
+}
+
+.galery{
+  text-align: center;
+}
+
+.galery2{
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+  color:#ffee00;
+}
+
+.kader{
+  background-color: #ffee00;
+  padding: 1rem;
+}
+
+p{
+  font-family: 'News Cycle', sans-serif;
+  font-size: 1rem;
+  line-height: 0.9rem;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+  width: 95vw;
+}

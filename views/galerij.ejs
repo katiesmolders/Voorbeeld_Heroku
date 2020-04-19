@@ -1,0 +1,36 @@
+<%- include('header'); -%>
+
+<main>
+  <h2 class="galery">GALERIJ</h2>
+  <h2 class="galery2">GALERIJ</h2>
+  <div class="button-group filters-button-group">
+    <h3 class="isotope">Filteren</h3>
+    <p>(Druk eerst op show all anders werkt grid niet juist)</p>
+    <button class="button is-checked" data-filter="*">show all</button>
+    <button class="button" data-filter="VincentvanGogh">Vincent Van Gogh</button>
+    <button class="button" data-filter="PaulGauguin">Paul Gauguin</button>
+    <button class="button" data-filter="EmileBernard">Émile Bernard</button>
+    <button class="button" data-filter="JohnPeterRussell">John Peter Russel</button>
+    <button class="button" data-filter="CharlesLaval">Charles Laval</button>
+  </div>
+
+  <div class="button-group sort-by-button-group">
+    <h3 class="isotope">Sorteren</h3>
+    <button class="button is-checked" data-sort-value="original-order">original order</button>
+    <button class="button" data-sort-value="title">Titel</button>
+    <button class="button" data-sort-value="year">jaar</button>
+  </div>
+
+
+  <div class="works">
+    <% for (let i=0; i<werken.length; i++) { %>
+      <%- include('werk', {werk: werken[i], index: i}); -%>
+    <% } // close forloop %>
+  </div>
+</main>
+
+
+<%- include('footer'); -%>
+<link rel="stylesheet" href="/css/master.css">
+<script src="/js/isotope.js" charset="utf-8"></script>
+<script src="/js/script.js" charset="utf-8"></script>
